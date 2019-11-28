@@ -13,16 +13,17 @@ The function must do the following:
  * Complete the vowelsAndConsonants function.
  * Print your output using 'console.log()'.
  */
-function vowelsAndConsonants(s) {
-    let consonants = [];
-    for(let i = 0; i < s.length; i++){
-        if(['a','e','i','o','u'].includes(s[i])) {
-            console.log(s[i]);
-        } else {
-            consonants.push(s[i]);
-        }
-    }
-    for (let j = 0; j<consonants.length; j++) {
-        console.log(consonants[j]);
-    }
-}
+ function vowelsAndConsonants(s) {
+     const vowels = 'aeiou';
+     let consonants = [];
+     for(let i = 0; i < s.length; i++){
+         if(vowels.includes(s[i])) {
+             console.log(s[i]);
+         } else {
+             consonants.push(s[i]);
+         }
+     }
+     for (let j = 0; j<consonants.length; j++) {
+         console.log(consonants[j]);
+     }
+ }
