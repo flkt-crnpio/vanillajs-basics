@@ -6,12 +6,11 @@
  */
 
 function modifyArray(nums) {
-    for(let i = 0; i < nums.length; i++) {
-        if(nums[i]%2 === 0) {
-            nums[i] = nums[i]*2;
-        } else {
-            nums[i] = nums[i]*3;
-        }
+    for(const [key,num] of nums.entries()) {
+      if(num%2===0)
+        nums[key] = num*2
+      else
+        nums[key] = num*3
     }
     return nums;
 }
