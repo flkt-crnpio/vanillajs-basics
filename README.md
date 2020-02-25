@@ -1,5 +1,5 @@
 ## vanillajs-basics
-Reference book (Speaking JavaScript)[http://speakingjs.com/]
+Reference book [Speaking JavaScript](http://speakingjs.com/)
 
 ### Data types
 In javascript they are 7 primitive data types (values).
@@ -19,4 +19,4 @@ Trying `typeof` on a `Null` returns `'Object'`... this is a bug that isn't fixed
 
 `NaN` is defined as a numeric type, but it's not a real number, it is the result of some mathematical operations that can't be quantified as number.
 
-And soooooo many weird things about (type coercion)[https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/]
+And soooooo many weird things about [type coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
